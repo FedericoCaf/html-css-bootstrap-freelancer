@@ -1,0 +1,27 @@
+.fc-container{
+  height: 100vh;
+}
+
+.fc-header-row{
+  background-color: #2C3E50;
+}
+
+.box-header{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 50px;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+}
+
+.fc-ul{
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.fc-ul li{
+  color: white;
+}
