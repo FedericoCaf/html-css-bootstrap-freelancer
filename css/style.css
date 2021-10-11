@@ -1,5 +1,6 @@
 .fc-container{
   height: 100vh;
+  color: white;
 }
 
 .fc-header-row{
@@ -44,6 +45,10 @@ height: 200px;
   width: 100%;
 }
 
+.fc-about{
+  background-color: #1ABC9C;
+}
+
 .text-about{
   margin-top: 10px;
   text-align: left;
@@ -55,6 +60,17 @@ height: 200px;
 }
 
 .fc-send-btn{
+  margin-top: 60px;
+}
+
+.footer-top{
   margin-top: 40px;
+  padding: 20px;
+  background-color: #3A546D;
+}
+
+.footer-bottom{
+  background-color: #2C3E50;
+  padding: 12px;
 }
 
