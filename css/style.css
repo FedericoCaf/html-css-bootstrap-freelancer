@@ -1,5 +1,5 @@
 .fc-container{
-  height: 100vh;
+  /* height: 100vh; */
   color: white;
 }
 
@@ -12,7 +12,6 @@
   justify-content: center; 
   align-items: center;
   height: 50px;
-  border: 2px solid black;
   color: white;
   font-weight: bold;
 }
@@ -36,9 +35,9 @@
 }
 
 .box-portfolio{ 
-height: 200px;
+/* height: 200px; */
 /* background-color:chartreuse; */
-/* margin: 15px; */
+  margin-top: 10px;
 }
 
 .box-portfolio img{
@@ -71,6 +70,6 @@ height: 200px;
 
 .footer-bottom{
   background-color: #2C3E50;
-  padding: 12px;
+  /* padding: 12px; */
 }
 
