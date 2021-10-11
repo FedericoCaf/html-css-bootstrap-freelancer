@@ -15,3 +15,46 @@
   color: white;
   font-weight: bold;
 }
+
+.fc-jumbotron{
+  background-color: #1ABC9C;
+  height: 400px;
+}
+
+.fc-container-img{
+  height: 200px;
+}
+
+.star-text{
+  margin-top: 20px;
+  height: 100px;
+}
+
+.container-portfolio-img{
+  margin-top: 20px;
+}
+
+.box-portfolio{ 
+height: 200px;
+/* background-color:chartreuse; */
+/* margin: 15px; */
+}
+
+.box-portfolio img{
+  width: 100%;
+}
+
+.text-about{
+  margin-top: 10px;
+  text-align: left;
+}
+
+.fc-download-btn{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fc-send-btn{
+  margin-top: 40px;
+}
+
