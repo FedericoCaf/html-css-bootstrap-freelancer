@@ -15,13 +15,3 @@
   color: white;
   font-weight: bold;
 }
-
-.fc-ul{
-  list-style: none;
-  display: flex;
-  margin-top: 10px;
-}
-
-.fc-ul li{
-  color: white;
-}
