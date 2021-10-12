@@ -87,9 +87,20 @@ h1{
 }
 
 .fc-star-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.star-line{
+  width: 40%;
   height: 2px;
   background-color: white;
-  margin-bottom: 30px;
+}
+
+.fc-star-line .fa-star{
+  font-size: 30px;
 }
 
 .fc-container-400 h3{
@@ -102,6 +113,7 @@ h1{
 
 .fc-box-portfolio{
   position: relative;
+  cursor: pointer;
 }
 
 .fc-box-portfolio img {
@@ -112,9 +124,9 @@ h1{
 }
 
 .fc-box-portfolio .layover {
+  position: absolute;
   border-radius: 10px;
   background-color: rgba(19, 134, 109, 0.5);
-  position: absolute;
   top: 0;
   display: none;
   width: 100%;
@@ -125,7 +137,7 @@ h1{
   display: block;
 }
 
-.fa-plus {
+.layover .fa-plus {
   color:white;
   font-size: 50px;
   position: absolute;
@@ -133,11 +145,6 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
-
-
 
 .fc-about{
   background-color: #1ABC9C;
@@ -174,6 +181,10 @@ h1{
 .fc-footer-top{
   color: white;
   background-color: #39546D;
+}
+
+.fc-social{
+  padding: 5px;
 }
 
 .fc-social .circle-icon{
