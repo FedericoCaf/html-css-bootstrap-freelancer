@@ -1,31 +1,63 @@
-.fc-container{
-  /* height: 100vh; */
+.body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sc-bg-blue{
+  background-color: #2C3D50;
+}
+
+.fc-white{
   color: white;
 }
 
-.fc-header-row{
-  background-color: #2C3E50;
-  margin-right: 0;
-  margin-left: 0;
-
+.fc-black{
+  color: black;
 }
 
 .box-header{
   display: flex;
-  justify-content: center; 
   align-items: center;
-  height: 50px;
+  height: 80px;
   color: white;
   font-weight: bold;
 }
 
-.fc-jumbotron{
-  background-color: #1ABC9C;
-  height: 400px;
+.logo-text h2{
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.fc-container-img{
-  height: 200px;
+.fc-menu span{
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.fc-pad-50{
+  padding: 50px 0;
+}
+
+.fc-jumbotron{
+  margin-top: 80px;
+  background-color: #1ABC9C;
+}
+
+.fc-container-400{
+  width: 400px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fc-star-line{
+  width: 400px;
+  max-width: 80%;
+  margin: 30px auto;
+  height: 2px;
+  background-color: white;
+}
+
+.fc-container-400 h3{
+  font-size: 17px;
 }
 
 .star-text{
@@ -37,18 +69,19 @@
   margin-top: 20px;
 }
 
-.box-portfolio{ 
-/* height: 200px; */
-/* background-color:chartreuse; */
-  margin-top: 10px;
-}
-
-.box-portfolio img{
+.col-md-6 img{
   width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .fc-about{
   background-color: #1ABC9C;
+}
+
+.fc-container-50{
+  width: 50%;
+  margin: 0 auto;
 }
 
 .text-about{
@@ -56,13 +89,15 @@
   text-align: left;
 }
 
-.fc-contact-me{
-  color: black;
+.custom-btn-download{
+  border: 1px solid white;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.fc-download-btn{
-  margin-top: 10px;
-  text-align: center;
+.fc-contact-me{
+  color: black;
 }
 
 .fc-send-btn{
@@ -80,4 +115,6 @@
   margin-right: 0;
   margin-left: 0;
 }
+
+
 

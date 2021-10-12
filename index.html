@@ -4,111 +4,137 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-10/css/all.css" integrity="sha512-Dj9pt3sZROOuTTs9S89ykGZeu1XQgWKg3DVpu5tZALApsrWdd3tnVjTclUuVONaHM4O8GgCnjSbHlTKXrd2OWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap Freelance</title>
 </head>
 <body>
 
-  <div class="container fc-container">
+  
       
-      <header>
-        <div class="row fc-header-row justify-content-between justify-content-md-around">
-          <div class="box-header col-3">START BOOTSTRAP</div>
-          <div class="box-header col-3 ">
-            <div class="menu d-none d-md-block md">menu</div>
-            <div class="menu d-none d-md-block md offset-1">menu</div>
-            <div class="menu d-none d-md-block md offset-1">menu</div>
+    <header class="sc-bg-blue fixed-top">   
+       <div class="container">
+          <div class="row justify-content-between">
+            <div class="box-header col-3 logo-text">
+              <h2>START BOOTSTRAP</h2>
+            </div>
+            <div class="box-header col-3">
+              <div class="fc-menu d-none d-md-block md">
+                <span>PORTFOLIO</span>
+              </div>
+              <div class="fc-menu d-none d-md-block md">
+                <span>ABOUT</span>
+              </div>
+              <div class="fc-menu d-none d-md-block md">
+                <span>CONTACT</span>
+              </div>
+           
+            </div>                               
           </div>
-        </div>
-      </header>
+       </div> 
+    </header>
 
-      <div class="fc-jumbotron">
-        <div class="row justify-content-center">
-          <div class="col-3 bg-primary fc-container-img">
-            IMMAGINE JUMBO
+    <section class="fc-jumbotron fc-pad-50 fc-white">
+        <div class="fc-container-400">
+            <img src="img/avatar.svg" alt="avatar">
+            <h1>START BOOTSTRAP</h1>
+            <div class="fc-star-line"></div>
+            <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
+         </div>
+    </section>
+
+<!-- sezione portfolio -->
+    <section class="fc-portfolio fc-pad-50 fc-black">
+           <div class="container">
+              <div class="fc-container-400">
+                <h2>PORTFOLIO</h2>
+                <div class="fc-star-line bg-black"> </div>
+              </div>
+              
+
+              <div class="row justify-content-center align-content-start container-portfolio-img ">
+
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/cabin.png" alt="cabin">
+                </div>
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/cake.png" alt="cake">
+                </div>
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/circus.png" alt="circus">
+                </div>    
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/game.png" alt="game">
+                </div>
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/safe.png" alt="safe">
+                </div>
+                <div class="col-md-6 col-lg-4 box-portfolio">
+                  <img src="img/submarine.png" alt="submarine">
+                </div>    
+              </div>  
+            
+            </div>
+  </section>
+
+
+  <section class="fc-about fc-pad-50">
+          <div class="fc-container-400 fc-white">
+            <h2>ABOUT</h2>
+            <div class="fc-star-line"> </div>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-3 bg-secondary fc-container-img">
-            TESTO JUMBO
+
+          <div class="fc-container-50 fc-white">
+             <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                  </div>
+                </div>
+
+                 <div class="row justify-content-center fc-white">
+                   <div class="col-2 custom-btn-download">
+                    <i class="fas fa-download"></i>
+                    <span>Download</span>
+                   </div>
+                  
+                  </div>
+                         
+                </div>
+
+             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="fc-portfolio">
-        <div class="row justify-content-center star-text">
-          <div class="col-3 bg-primary"></div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-8">
-            <div class="row justify-content-center align-content-start container-portfolio-img ">
-
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>    
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>
-              <div class="col-sm-6 col-md-4 box-portfolio">
-                <img src="https://placekeanu.com/330/200" alt="keanu">
-              </div>    
           
-            </div>  
-          </div>
         
-        </div>
-      
-      </div>
-
-      <div class="fc-about">
-        <div class="row justify-content-center star-text">
-          <div class="col-3 bg-primary"></div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-sm-3 text-about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quisquam iusto, sunt et facilis a reiciendis dolorem numquam laboriosam eligendi.</div>
-            <div class="col-sm-3 text-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur aliquam perferendis minus ipsum ipsa, tenetur animi quaerat accusamus facere. Corrupti?</div>
-        </div>
-        
-        <div class="fc-download-btn">
-          <button>Download</button>
-        </div>
        
 
-      </div>
+      </section>
     
     <div class="fc-contact-me">
         <div class="row justify-content-center star-text">
           <div class="col-3 bg-primary"></div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6 border-bottom ">Nome</div>
+          <div class="col-md-6 border-bottom ">Nome</div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6 border-bottom ">Nome</div>
+          <div class="col-md-6 border-bottom ">Nome</div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6 border-bottom">Nome</div>
+          <div class="col-md-6 border-bottom">Nome</div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-6">Message</div>
+          <div class="col-md-6">Message</div>
         </div>
 
         <div class="row justify-content-center fc-send-btn">
-          <div class="col-6">
+          <div class="col-md-6">
             <button>Send</button>
-          </div>      
+          </div>                                        
         </div> 
     </div>
 
@@ -133,6 +159,6 @@
 
 
 
-  </div>
+ 
 </body>
 </html>
