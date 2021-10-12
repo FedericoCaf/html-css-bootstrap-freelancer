@@ -36,23 +36,22 @@
     </header>
 
     <section class="fc-jumbotron fc-pad-50 fc-white">
-        <div class="fc-container-400">
+          <div class="fc-container-400">
             <img src="img/avatar.svg" alt="avatar">
+           </div>  
             <h1>START BOOTSTRAP</h1>
-            <div class="fc-star-line"></div>
-            <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
-         </div>
+            <div class="fc-star-line fc-container-400"></div>
+            <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+      
     </section>
 
 <!-- sezione portfolio -->
     <section class="fc-portfolio fc-pad-50 fc-black">
            <div class="container">
-              <div class="fc-container-400">
-                <h2>PORTFOLIO</h2>
-                <div class="fc-star-line bg-black"> </div>
-              </div>
               
-
+              <h2>PORTFOLIO</h2>
+              <div class="fc-star-line fc-container-400 bg-black"> </div>
+              
               <div class="row justify-content-center align-content-start container-portfolio-img ">
 
                 <div class="col-md-6 col-lg-4 box-portfolio">
@@ -79,7 +78,7 @@
   </section>
 
 
-  <section class="fc-about fc-pad-50">
+  <section class="fc-about fc-pad-50 text-center">
           <div class="fc-container-400 fc-white">
             <h2>ABOUT</h2>
             <div class="fc-star-line"> </div>
@@ -114,43 +113,58 @@
 
       </section>
     
-    <div class="fc-contact-me">
-        <div class="row justify-content-center star-text">
-          <div class="col-3 bg-primary"></div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6 border-bottom ">Nome</div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6 border-bottom ">Nome</div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6 border-bottom">Nome</div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">Message</div>
-        </div>
+    <section class="fc-contact-me fc-pad-50">
 
-        <div class="row justify-content-center fc-send-btn">
-          <div class="col-md-6">
-            <button>Send</button>
-          </div>                                        
-        </div> 
-    </div>
+      <div class="fc-container-400 fc-black">
+        <h2>CONTACT ME</h2>
+        <div class="fc-star-line"> </div>
+      </div>
+      <div class="container">
+        <form class="fc-form" action="">
+           <div class="mb-3">
+              <input type="email" class="form-control fc-custom-border" id="Input1" placeholder="Name">
+           </div>
+           <div class="mb-3">
+              <input type="email" class="form-control fc-custom-border" id="Input1" placeholder="Email Address">
+           </div>
+           <div class="mb-3">
+              <input type="email" class="form-control fc-custom-border" id="Input1" placeholder="Phone Number">
+           </div>
+           <div class="mb-3">
+              <textarea class="form-control fc-custom-border" id="Textarea1" rows="6" placeholder="Message"></textarea>
+           </div>
+           <div class="btn btn-success fc-bg-green">Send</div>
+        </form>
+     </div>
+
+      
+    </section>
 
     <footer>
-      <div class="footer-top">
-          <div class="row justify-content-center">
-            <div class="col-md-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, optio?</div>
-            <div class="col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
-            <div class="col-md-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quod debitis velit molestias explicabo quibusdam ullam deleniti delectus aliquid aperiam!</div>
+      <div class="fc-footer-top fc-pad-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <p>LOCATION</p>
+              <p>2215 John Daniel Drive Clark, MO</p>
+              <p>54243</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <p>AROUND THE WEB</p>
+              <div class="fc social d-flex justify-content-around">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="col-md-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, corrupti!
+            </div>
           </div>
+        </div>
       </div>
-      <div class="footer-bottom">
-          <div class="row justify-content-center footer-bottom">
-            <div class="col-2">Lorem ipsum dolor sit</div>
-          </div>
-      </div>
+      <div class="fc-footer-bottom fc-bg-blue">COPY</div>
        
     </footer>
    
